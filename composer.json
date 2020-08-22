@@ -1,11 +1,12 @@
 {
 	"description": "Leo.Kuo Blog",
-	"name": "Leo's Blog",
+	"name": "fishingboy/blog",
 	"type": "project",
 	"require": {
-		"php": ">=7.1"
-	},
-	"require-dev": {
-		"mikey179/vfsStream": "1.1.*"
+		"php": ">=7.1",
+		"fishingboy/codeigniter-migration": "^1.0",
+		"fishingboy/codeigniter-seeder": "^1.0",
+		"fishingboy/codeigniter-model-base": "^1.0",
+		"fishingboy/type-converter": "^1.0"
 	}
 }
