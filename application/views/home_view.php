@@ -66,6 +66,16 @@
         font-size: 12px;
         color: var(--pale-grey);
     }
+
+    #coming-soon {
+        font-family: PingFangTC;
+        font-size: 100px;
+        text-align: center;
+        color: var(--pale-grey);
+        height:80vh;
+        line-height: 80vh;
+        text-shadow:5px 5px 30px #BBF;
+    }
 </style>
 </head>
 <body>
@@ -81,6 +91,9 @@
             <div class="btn"><img class="icon" src="/public/images/magnifying-glass@2x.png" alt=""></div>
         </div>
     </div>
+
+    <div id="coming-soon">Coming Soon ...</div>
+
 </div>
 <div id="footer">© 2020 Leo Kuo , design by Evonne Chen</div>
 </body>
