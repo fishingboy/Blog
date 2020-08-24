@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
 <meta charset="utf-8">
-<title>Welcome to CodeIgniter</title>
+<title>Leo's Blog</title>
 <link rel="stylesheet" type="text/css" href="/public/css/global.css"/>
 
 <style type="text/css">
