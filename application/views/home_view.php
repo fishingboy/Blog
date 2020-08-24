@@ -81,7 +81,7 @@
     @media (max-width:1179px){
         #base {
             margin: 0 auto;
-            width:480px;
+            width:80vw;
         }
         #coming-soon {
             font-size: 35px;
