@@ -84,7 +84,7 @@
             width:480px;
         }
         #coming-soon {
-            font-size: 40px;
+            font-size: 35px;
             text-align: left;
             text-shadow:5px 5px 30px #BBF;
         }
