@@ -2,7 +2,7 @@
 <head>
 <meta charset="utf-8">
 <title>Welcome to CodeIgniter</title>
-<link rel="stylesheet" type="text/css" href="/public/css/colors.css"/>
+<link rel="stylesheet" type="text/css" href="/public/css/global.css"/>
 
 <style type="text/css">
     * {
@@ -56,7 +56,7 @@
 </head>
 <body>
 <div id="base">
-    <div id="header">
+    <div id="header" class="clearfix">
         <div class="logo-box">
             <img class="logo" src="/public/images/logo@2x.png" alt="">
         </div>

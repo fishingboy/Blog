@@ -1,0 +1,13 @@
+:root {
+  --charcoal-grey: #32323c;
+  --charcoal-grey-two: #3c3c46;
+  --slate-grey: #5a5a64;
+  --battleship-grey: #787882;
+  --light-grey-blue: #b4b4be;
+  --pale-grey: #f0f0ff;
+  --bright-cyan: #37dafc;
+}
+
+.clearfix        {zoom: 1;}
+.clearfix:before {content: ""; display: table;}
+.clearfix:after  {content: ""; display: table; clear: both;}
