@@ -20,6 +20,7 @@
         width:1180px;
         /*border: 1px solid #000;*/
     }
+
     #header {
         line-height:80px;
         height: 80px;
@@ -75,6 +76,18 @@
         height:80vh;
         line-height: 80vh;
         text-shadow:5px 5px 30px #BBF;
+    }
+
+    @media (max-width:1179px){
+        #base {
+            margin: 0 auto;
+            width:480px;
+        }
+        #coming-soon {
+            font-size: 40px;
+            text-align: left;
+            text-shadow:5px 5px 30px #BBF;
+        }
     }
 </style>
 </head>
