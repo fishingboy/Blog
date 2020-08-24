@@ -52,6 +52,20 @@
         height: 16px;
         border: solid 1px var(--battleship-grey);
     }
+
+    #footer {
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        height: 46px;
+        background-color: var(--charcoal-grey);
+        line-height: 46px;
+        text-align: center;
+
+        font-family: PingFangTC;
+        font-size: 12px;
+        color: var(--pale-grey);
+    }
 </style>
 </head>
 <body>
@@ -68,5 +82,6 @@
         </div>
     </div>
 </div>
+<div id="footer">© 2020 Leo Kuo , design by Evonne Chen</div>
 </body>
 </html>
