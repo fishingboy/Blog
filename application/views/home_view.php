@@ -78,13 +78,18 @@
         text-shadow:5px 5px 30px #BBF;
     }
 
-    @media (max-width:1179px){
+    @media (max-width:1179px) {
         #base {
             margin: 0 auto;
-            width:80vw;
+            width:360px;
+        }
+        #header .logo-box .logo {
+            width: 152px;
+            height:28px;
+            margin:18px 16px;
         }
         #coming-soon {
-            font-size: 35px;
+            font-size: 20px;
             text-align: left;
             text-shadow:5px 5px 30px #BBF;
         }
