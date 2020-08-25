@@ -18,9 +18,7 @@
     #base {
         margin: 0 auto;
         width:1180px;
-        /*border: 1px solid #000;*/
     }
-
     #header {
         line-height:80px;
         height: 80px;
@@ -53,7 +51,6 @@
         height: 16px;
         border: solid 1px var(--battleship-grey);
     }
-
     #footer {
         width: 100%;
         position: fixed;
@@ -66,6 +63,18 @@
         font-family: PingFangTC;
         font-size: 12px;
         color: var(--pale-grey);
+    }
+
+    #main {
+        width:100%;
+    }
+    #content {
+        float:left;
+        width:852px;
+    }
+    #menu {
+        float:right;
+        width:278px;
     }
 
     #coming-soon {
@@ -107,6 +116,15 @@
             <div class="btn"><img class="icon" src="/public/images/linkedin-logo@2x.png" alt=""></div>
             <div class="line"></div>
             <div class="btn"><img class="icon" src="/public/images/magnifying-glass@2x.png" alt=""></div>
+        </div>
+    </div>
+
+    <div id="main" class="clearfix">
+        <div id="content">
+
+        </div>
+        <div id="menu">
+
         </div>
     </div>
 
