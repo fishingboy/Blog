@@ -93,6 +93,9 @@
             text-align: left;
             text-shadow:5px 5px 30px #BBF;
         }
+        #footer {
+            font-size: 18px;
+        }
     }
 </style>
 </head>
