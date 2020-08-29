@@ -13,6 +13,7 @@
     body {
         padding: 0;
         margin: 0;
+        font-size: 0;
         background-color: var(--charcoal-grey-two);
     }
     #base {
@@ -36,14 +37,23 @@
     #header .tools-box {
         float: right;
     }
-    #header .tools-box .btn {
+    #header .tools-box .icon {
         display: inline-block;
         margin-left: 16px;
-    }
-    #header .tools-box .btn .icon {
         width: 16px;
         height: 16px;
+        background-size: 16px 16px;
     }
+    .github-icon {
+       background-image: url(/public/images/github-logo@2x.png);
+    }
+    .linkedin-icon {
+        background-image: url(/public/images/linkedin-logo@2x.png);
+    }
+    .search-icon {
+        background-image: url(/public/images/magnifying-glass@2x.png);
+    }
+
     #header .tools-box .line {
         display: inline-block;
         margin-left: 16px;
@@ -70,13 +80,60 @@
     }
     #content {
         float:left;
-        width:852px;
+        margin-top: 48px;
+        /*width:852px;*/
     }
     #menu {
         float:right;
+        margin-top: 48px;
         width:278px;
     }
 
+    #menu .block {
+        border: solid 1px var(--slate-grey);
+        font-size: 18px;
+        height: 48px;
+        line-height: 48px;
+        text-align: center;
+        color: var(--pale-grey);
+    }
+    #menu .body {
+        margin-top: 16px;
+    }
+
+    #about .photo {
+        margin: 0 auto;
+        width: 120px;
+        height: 120px;
+        border-radius: 120px;
+        background-image: url(/public/images/photo.jpg);
+        background-size: 120px 120px;
+    }
+    #about .name {
+        margin-top: 16px;
+        line-height: 24px;
+        font-size: 18px;
+        text-align: center;
+        color: var(--pale-grey);
+    }
+    #about .name2 {
+        margin-top: 4px;
+        line-height: 24px;
+        font-size: 16px;
+        text-align: center;
+        color: var(--light-grey-blue);
+    }
+
+    #about .icons {
+        text-align: center;
+    }
+    #about .icons .icon {
+        display: inline-block;
+        margin-left: 16px;
+        width: 16px;
+        height: 16px;
+        background-size: 16px 16px;
+    }
     #coming-soon {
         font-family: PingFangTC;
         font-size: 100px;
@@ -112,19 +169,31 @@
             <img class="logo" src="/public/images/logo@2x.png" alt="">
         </div>
         <div class="tools-box">
-            <div class="btn"><img class="icon" src="/public/images/github-logo@2x.png" alt=""></div>
-            <div class="btn"><img class="icon" src="/public/images/linkedin-logo@2x.png" alt=""></div>
+            <div class="icon github-icon"></div>
+            <div class="icon linkedin-icon"></div>
             <div class="line"></div>
-            <div class="btn"><img class="icon" src="/public/images/magnifying-glass@2x.png" alt=""></div>
+            <div class="icon search-icon"></div>
         </div>
     </div>
 
     <div id="main" class="clearfix">
         <div id="content">
-
+xxx
+xxx
         </div>
         <div id="menu">
-
+            <div id="about" class="block">
+                <div class="title">About Me</div>
+                <div class="body">
+                    <div class="photo"></div>
+                    <div class="name">Leo Kuo</div>
+                    <div class="name2">Fishingboy</div>
+                    <div class="icons">
+                        <div class="icon github-icon"></div>
+                        <div class="icon linkedin-icon"></div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
