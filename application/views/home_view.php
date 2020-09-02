@@ -83,23 +83,23 @@
         margin-top: 48px;
         /*width:852px;*/
     }
-    #menu {
+    #sidebar {
         float:right;
         margin-top: 48px;
         width:278px;
     }
 
-    #menu .block {
+    #sidebar .block {
         margin-bottom: 32px;
     }
-    #menu .block .title {
+    #sidebar .block .title {
         border: solid 1px var(--slate-grey);
         font-size: 18px;
         line-height: 48px;
         text-align: center;
         color: var(--pale-grey);
     }
-    #menu .body {
+    #sidebar .body {
         margin-top: 16px;
     }
 
@@ -136,6 +136,28 @@
         height: 16px;
         background-size: 16px 16px;
     }
+
+    #categories {
+        margin-top: 8px;
+    }
+    #categories .category, #categories .sub-category {
+        padding: 0 24px;
+        font-size: 16px;
+        color: var(--light-grey-blue);
+        line-height: 24px;
+    }
+    #categories .category {
+        background-size: 8px 8px;
+        background-repeat: no-repeat;
+        background-position: 8px 8px;
+    }
+    #categories .category[collapse="0"] {
+        background-image: url(/public/images/arrowhead-pointing-to-the-down@2x.png);
+    }
+    #categories .category[collapse="1"] {
+        background-image: url(/public/images/arrowhead-pointing-to-the-right@2x.png);
+    }
+
     #coming-soon {
         font-family: PingFangTC;
         font-size: 100px;
@@ -183,7 +205,7 @@
 xxx
 xxx
         </div>
-        <div id="menu">
+        <div id="sidebar">
             <div id="about" class="block clearfix">
                 <div class="title">About Me</div>
                 <div class="body">
@@ -197,10 +219,21 @@ xxx
                 </div>
             </div>
 
-            <div id="category" class="block clearfix">
+            <div id="menu" class="block clearfix">
                 <div class="title">Categories</div>
                 <div class="body">
-                    xxx
+                    <div id="categories">
+                        <div class="category" collapse="0">程式設計</div>
+                        <div class="sub-category">PHP (50)</div>
+                        <div class="sub-category">MySQL (24)</div>
+                        <div class="sub-category">JavaScript (36)</div>
+                        <div class="sub-category">網路元件 (8)</div>
+                        <div class="sub-category">Sublime Text (7)</div>
+                        <div class="sub-category">Oracle (2)</div>
+
+                        <div class="category" collapse="1">我的函式庫</div>
+                        <div class="category" collapse="1">其他</div>
+                    </div>
                 </div>
             </div>
         </div>
