@@ -131,7 +131,7 @@
     }
     #about .icons .icon {
         display: inline-block;
-        margin-left: 16px;
+        margin:0 8px;
         width: 16px;
         height: 16px;
         background-size: 16px 16px;
