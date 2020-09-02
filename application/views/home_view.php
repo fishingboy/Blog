@@ -90,9 +90,11 @@
     }
 
     #menu .block {
+        margin-bottom: 32px;
+    }
+    #menu .block .title {
         border: solid 1px var(--slate-grey);
         font-size: 18px;
-        height: 48px;
         line-height: 48px;
         text-align: center;
         color: var(--pale-grey);
@@ -182,7 +184,7 @@ xxx
 xxx
         </div>
         <div id="menu">
-            <div id="about" class="block">
+            <div id="about" class="block clearfix">
                 <div class="title">About Me</div>
                 <div class="body">
                     <div class="photo"></div>
@@ -192,6 +194,13 @@ xxx
                         <div class="icon github-icon"></div>
                         <div class="icon linkedin-icon"></div>
                     </div>
+                </div>
+            </div>
+
+            <div id="category" class="block clearfix">
+                <div class="title">Categories</div>
+                <div class="body">
+                    xxx
                 </div>
             </div>
         </div>
