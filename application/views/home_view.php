@@ -27,7 +27,8 @@
         vertical-align: middle;
     }
     #header .logo-box {
-        float: left;
+        /*float: left;*/
+        height: 80px;
     }
     #header .logo-box .logo {
         width: 182px;
@@ -81,8 +82,19 @@
     #content {
         float:left;
         margin-top: 48px;
-        /*width:852px;*/
+        width:852px;
     }
+    #article-list {
+        margin-bottom: 31px;
+        border:1px solid var(--charcoal-grey-two);
+    }
+    #article-list .title {
+        font-size: 20px;
+        letter-spacing: 1px;
+        color: var(--pale-grey);
+    }
+
+
     #sidebar {
         float:right;
         margin-top: 48px;
@@ -189,21 +201,25 @@
 <body>
 <div id="base">
     <div id="header" class="clearfix">
-        <div class="logo-box">
-            <img class="logo" src="/public/images/logo@2x.png" alt="">
-        </div>
         <div class="tools-box">
             <div class="icon github-icon"></div>
             <div class="icon linkedin-icon"></div>
             <div class="line"></div>
             <div class="icon search-icon"></div>
         </div>
+        <div class="logo-box">
+            <img class="logo" src="/public/images/logo@2x.png" alt="">
+        </div>
     </div>
 
     <div id="main" class="clearfix">
         <div id="content">
-xxx
-xxx
+            <div id="article-list">
+                <div class="article">
+                    <div class="title">[php] 錯誤訊息：php_network_getaddresses: getaddrinfo failed: Name or service not known</div>
+                    <div class="info"></div>
+                </div>
+            </div>
         </div>
         <div id="sidebar">
             <div id="about" class="block clearfix">
@@ -239,7 +255,7 @@ xxx
         </div>
     </div>
 
-    <div id="coming-soon">Coming Soon ...</div>
+<!--    <div id="coming-soon">Coming Soon ...</div>-->
 
 </div>
 <div id="footer">© 2020 Leo Kuo , design by Evonne Chen</div>
