@@ -84,14 +84,36 @@
         margin-top: 48px;
         width:852px;
     }
-    #article-list {
-        margin-bottom: 31px;
-        border:1px solid var(--charcoal-grey-two);
+    #article-list .article {
+        padding-bottom: 32px;
+        margin-bottom: 32px;
+        border-bottom:1px solid var(--slate-grey);;
     }
-    #article-list .title {
+    #article-list .article .title {
         font-size: 20px;
         letter-spacing: 1px;
         color: var(--pale-grey);
+    }
+    #article-list .article .info {
+        margin-top: 8px;
+        font-size: 14px;
+        line-height: 20px;
+        color: var(--battleship-grey);
+    }
+    #article-list .article .info .time {
+        display: inline-block;
+        padding-left: 24px ;
+        background-image: url(/public/images/time@2x.png);
+        background-size: 16px 16px;
+        background-repeat: no-repeat;
+    }
+    #article-list .article .info .reply {
+        display: inline-block;
+        margin-left: 16px;
+        padding-left: 24px ;
+        background-image: url(/public/images/speech-bubbles-comment-option@2x.png);
+        background-size: 16px 16px;
+        background-repeat: no-repeat;
     }
 
 
@@ -216,8 +238,18 @@
         <div id="content">
             <div id="article-list">
                 <div class="article">
-                    <div class="title">[php] 錯誤訊息：php_network_getaddresses: getaddrinfo failed: Name or service not known</div>
-                    <div class="info"></div>
+                    <div class="title">[PHP] 如何移除陣列元素之後，重新整理陣列的順序，後面的自動往前移</div>
+                    <div class="info">
+                        <div class="time">2019/10/28 09:28</div>
+                        <div class="reply">3</div>
+                    </div>
+                </div>
+                <div class="article">
+                    <div class="title">[Linux] 搜尋目錄下有沒有未解的 git 衝突</div>
+                    <div class="info">
+                        <div class="time">2019/10/28 09:28</div>
+                        <div class="reply">0</div>
+                    </div>
                 </div>
             </div>
         </div>
